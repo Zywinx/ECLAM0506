@@ -2,40 +2,27 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# linked or large data folders / symlinks
-data
+# linked or large data
 data/
-datasets
-datasets/
-features
 features/
-patches
 patches/
-coords
 coords/
-h5_files
 h5_files/
-slides
 slides/
-wsi
 wsi/
-WSI
 WSI/
 
-# outputs / experiments
+# outputs
 results/
 runs/
 outputs/
-output/
 logs/
 eval_results/
-heatmaps/heatmap_production_results/
-heatmap_results/
-
-# checkpoints / weights / binaries
 checkpoints/
 checkpoint/
 weights/
+
+# model/data binaries
 *.pt
 *.pth
 *.ckpt
@@ -45,7 +32,7 @@ weights/
 *.npy
 *.npz
 
-# large image outputs
+# large images
 *.jpg
 *.jpeg
 *.png

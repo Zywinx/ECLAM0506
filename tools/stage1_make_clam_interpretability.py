@@ -1,7 +1,7 @@
 import sys
 from pathlib import Path
 
-CLAM_ROOT = Path("/data/xuewz/WSI_PRE/CLAM_0423/code/CLAM")
+CLAM_ROOT = Path("/data/xuewz/WSI_PRE/CLAM_0423/code/ECLAM")
 sys.path.insert(0, str(CLAM_ROOT))
 
 from pathlib import Path
@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 from models.model_clam import CLAM_SB
 
 ROOT = Path("/data/xuewz/WSI_PRE/CLAM_0423")
-CLAM = ROOT / "code/CLAM"
+CLAM = ROOT / "code/ECLAM"
 
 OUT_DIR = ROOT / "analysis/stage1_clam_tables_figures/figure2_attention"
 OUT_DIR.mkdir(parents=True, exist_ok=True)

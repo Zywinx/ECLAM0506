@@ -16,7 +16,7 @@ from sklearn.metrics import (
 )
 
 ROOT = Path("/data/xuewz/WSI_PRE/CLAM_0423")
-CLAM = ROOT / "code/CLAM"
+CLAM = ROOT / "code/ECLAM"
 
 DATASET_CSV = CLAM / "dataset_csv/hzey_stage1_aonly_bm.csv"
 SELECTED_CSV = ROOT / "data/meta/hzey_stage1_aonly_selected.csv"

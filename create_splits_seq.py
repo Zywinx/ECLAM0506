@@ -45,7 +45,7 @@ elif args.task == 'task_2_tumor_subtyping':
 
 #新增quick task：从已经生成的 .pt 里抽一小批，良恶性各取 30 个 case，
 #已经保存至/data/xuewz/WSI_PRE/CLAM_0423/data/meta/hzey_quick_done_dataset.csv 
-#/data/xuewz/WSI_PRE/CLAM_0423/code/CLAM/dataset_csv/hzey_quick_done_dataset.csv 
+#/data/xuewz/WSI_PRE/CLAM_0423/code/ECLAM/dataset_csv/hzey_quick_done_dataset.csv 
 #data/features/hzey_sdpc_resnet50/pt_files/            
 
 elif args.task == 'task_hzey_quick_bm':
